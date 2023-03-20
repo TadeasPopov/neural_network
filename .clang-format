@@ -1,0 +1,29 @@
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+AccessModifierOffset: -4
+AlignAfterOpenBracket: BlockIndent
+AlignOperands: Align
+AlignTrailingComments: true
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Empty
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLambdasOnASingleLine: Empty
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+ContinuationIndentWidth: 4
+PointerAlignment: Middle
+SpaceBeforeRangeBasedForLoopColon: true
+AllowAllParametersOfDeclarationOnNextLine: true
+PackConstructorInitializers: CurrentLine
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: Always
+BreakBeforeBraces: Attach
+ColumnLimit: 140
+SpacesInParentheses: true
+NamespaceIndentation: All
+SpaceBeforeParensOptions:
+  AfterControlStatements: true
