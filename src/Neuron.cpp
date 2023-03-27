@@ -8,8 +8,10 @@ float Neuron::Model() {
 		sum += connections_[i]->GetParentValue() * connections_[i]->GetWeight();
 	}
 	// log &
-	// return step05(sum);
-	return step( sum );
+	// return step05( sum );
+	// line
+	// return step( sum );
+	return sigmoid( sum );
 }
 
 void Neuron::AddParent(Neuron & neuron, float weight ) {

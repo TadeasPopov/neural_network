@@ -4,6 +4,10 @@
 #include "./Connection.hpp"
 #include "./Layer.hpp"
 
+inline float sigmoid_derivative(float value) {
+	return value * ( 1.f - value );
+}
+
 class NeuralNetwork {
 public:
 	void Add( int neuron_count );
